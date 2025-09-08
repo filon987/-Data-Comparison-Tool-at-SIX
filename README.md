@@ -32,5 +32,11 @@ The CompareTwoDataframes tool allows to compare two dataframes and produce summa
 - Schema differences
 - Row count differences
 - Value mismatches
+as requested in assesment goals.
 
+The tool is limited, performs only simple comparison on the data. To reach production grade stage additional development and optimisation needs to be performed. It lacks functionalities like sampling for big datasets, handling null and nan values, detailed value comparison e.g. floating-point tolerance or datetime formats. 
+
+The tool have been created in python using pandas as initial version as i know this stack better than i do know PySpark. After creating logic and structure in pandas i wanted to rewrite it using PySpark. Unfortunatelly due to limited time i have to pospone rewriting this tool for later.
+
+Creating this code took approximately 3 MD of working afterhours.
 
