@@ -58,7 +58,7 @@ print(compare.report())
 
 The tool have been created in python using pandas as initial version as i know this stack better than i do know PySpark. After creating logic and structure in pandas i wanted to rewrite it using PySpark. Unfortunatelly due to limited time i have to pospone rewriting this tool for later.
 
-Creating this code took approximately 3 MD of working afterhours.
+Creating this code took approximately 3-3.5 MD of working afterhours.
 
 P.S.: Sorry for not including comments in the code. I hope it wouldn't make it much harder to get throught. Will add them for the tech-talk.
 
