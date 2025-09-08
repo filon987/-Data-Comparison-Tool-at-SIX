@@ -1,6 +1,6 @@
 # -Data-Comparison-Tool-at-SIX
 
-Tool prepared for assesment review at SIX:
+Tool prepared as an assesment for technical review at SIX:
 ```
 Assessment Overview
 
