@@ -41,6 +41,7 @@ To run the tool: clone the repo -> run virtualenvironment with python 3.9.12 -> 
 In main.py there are 10 case scenarios to run tool against. 
 
 example:
+```
 from CompareTwoDatasets import CompareTwoDatasets
 
 #initialization of the object CompareTwoDatasets
@@ -52,7 +53,8 @@ compare = CompareTwoDatasets(df1, df2, legacy_key="account_id", cloud_key="accou
 compare.compare()
 
 #prints report of the comparison
-print(compare.report()) 
+print(compare.report())
+```
 
 The tool have been created in python using pandas as initial version as i know this stack better than i do know PySpark. After creating logic and structure in pandas i wanted to rewrite it using PySpark. Unfortunatelly due to limited time i have to pospone rewriting this tool for later.
 
