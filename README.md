@@ -22,7 +22,8 @@ The tool should be reusable and reasonably structured (e.g. a script, class, not
 Bonus points for thoughtful logging, reporting, or testing, but not mandatory.
 ```
 
-## The tool consists of a class file CompareTwoDatasets.py and main.py which runs the tool.
+### Overview
+The tool consists of a class file CompareTwoDatasets.py and main.py which runs the tool.
 The main.py file consists of 10 samples of dataframe pairs which allows to perform 10 different comparison scenarios.
 All necesary libraries for running this project are stored in requirements.txt. 
 The Python version on which this tool was developed was Python 3.9.12.
