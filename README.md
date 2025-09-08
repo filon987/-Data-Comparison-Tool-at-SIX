@@ -36,7 +36,27 @@ as requested in assesment goals.
 
 The tool is limited, performs only simple comparison on the data. To reach production grade stage additional development and optimisation needs to be performed. It lacks functionalities like sampling for big datasets, handling null and nan values, detailed value comparison e.g. floating-point tolerance or datetime formats. 
 
+To run the tool: clone the repo -> run virtualenvironment with python 3.9.12 -> install reuirements from requirements.txt file -> run main.py
+
+In main.py there are 10 case scenarios to run tool against. 
+
+example:
+from CompareTwoDatasets import CompareTwoDatasets
+
+#initialization of the object CompareTwoDatasets
+compare = CompareTwoDatasets(df1, df2, legacy_key="account_id", cloud_key="account_num") 
+#or compare = CompareTwoDatasets(df1, df2, join_columns=["account_id", "account_num"]) 
+#or compare = CompareTwoDatasets(df1, df2, join_columns="account_id") 
+
+#running comparison
+compare.compare()
+
+#prints report of the comparison
+print(compare.report()) 
+
 The tool have been created in python using pandas as initial version as i know this stack better than i do know PySpark. After creating logic and structure in pandas i wanted to rewrite it using PySpark. Unfortunatelly due to limited time i have to pospone rewriting this tool for later.
 
 Creating this code took approximately 3 MD of working afterhours.
+
+P.S.: Sorry for not including comments in the code. I hope it wouldn't make it much harder to get throught. Will add them for the tech-talk.
 
